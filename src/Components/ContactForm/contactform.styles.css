@@ -1,0 +1,14 @@
+.MuiFilledInput-root {
+
+    background-color: rgba(245, 236, 236, 0.534);
+}
+.MuiInputBase-root{
+    background-color: rgba(245, 236, 236, 0.534);
+}
+
+.MuiFilledInput-underline:after{
+    border-bottom: 2px solid #F57C00;
+}
+.MuiFormLabel-root.Mui-focused{
+    color: #F57C00;
+}

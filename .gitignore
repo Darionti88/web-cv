@@ -7,6 +7,8 @@
 
 # testing
 /coverage
+App.test.js
+reportWebVitals.js
 
 # production
 /build
@@ -17,7 +19,15 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+firebase.json
+firestore.indexes.json
+firestore.rules
+.firebaserc
+
+
