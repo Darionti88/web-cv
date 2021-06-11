@@ -5,6 +5,7 @@ import CardTrabajo from '../CardTrabajo/Index'
 import Periodistan from '../../images/capturas/periodistan.png'
 import Lady from '../../images/capturas/ladyahorro.png'
 import Keeper from '../../images/capturas/keeper.png'
+import Uptask from '../../images/capturas/uptask.png'
 import Bakery from '../../images/capturas/bakery.png'
 import BackgroundImg from '../../images/cool-background.jpeg'
 import { Typography } from '@material-ui/core';
@@ -71,6 +72,13 @@ export default function Trabajos() {
                     title='Periodistan'
                     repo=''
                     web='http://ladyahorro.com/'  />
+                    <CardTrabajo
+                    proyecto='Uptask-Node'
+                    desc='Proyecto para curso de Node.Js. Es una web donde podes crear proyectos con sus tareas y ver tu progreso. Realizado en Node, las vistas en Pug y Database con MySql. Todo deployado en Heroku'
+                    media={Uptask}
+                    title='Uptask'
+                    repo='https://github.com/Darionti88/Uptask-Node'
+                    web='https://uptask-node-onti.herokuapp.com/iniciar-sesion'  />
                 </Grid>
             </Grid>
             <hr className={classes.hr}/>
