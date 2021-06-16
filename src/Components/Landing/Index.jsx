@@ -28,7 +28,7 @@ const useStyles = makeStyles(() => ({
         justifyContent:'center',
         color:'#fff',
         minWidth:'100vw',
-        minHeight:'100vh',
+        minHeight:'90vh',
         background: `url(${BackgroundImg})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover'

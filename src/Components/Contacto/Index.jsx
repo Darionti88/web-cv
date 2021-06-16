@@ -7,6 +7,7 @@ import Container from '@material-ui/core/Container'
 import WapIcon from '../../images/icons/whatsapp.png'
 import GitIcon from '../../images/icons/github.png'
 import LinkedIcon from '../../images/icons/linkedin.svg'
+import MailIcon from '../../images/icons/gmail.png'
 import Button from '@material-ui/core/Button'
 import Link from '@material-ui/core/Link'
 import Grid from '@material-ui/core/Grid';
@@ -75,23 +76,30 @@ export default function Contacto() {
                                 <Grid item container md={12} className={classes.title}><Typography variant='h6'>Social</Typography></Grid>
                                     <List component="nav" aria-label="main mailbox folders" className={classes.list}>
                                         <ListItem button className={classes.listItem}>
-                                            <Link href='https://api.whatsapp.com/send/?phone=5491157532277' target='_blank'>
+                                            <Link href='https://api.whatsapp.com/send/?phone=5491157532277' target='_blank' rel='noopener noreferrer'>
                                                 <ListItemIcon>
                                                     <img src={WapIcon} alt="html-icon" className={classes.icon}/>
                                                 </ListItemIcon>
                                             </Link>
                                         </ListItem>
                                             <ListItem button className={classes.listItem}>
-                                                <Link target='_blank' href='https://www.linkedin.com/in/dario-ontiveros-1a5148a0/'>
+                                                <Link target='_blank' href='https://www.linkedin.com/in/dario-ontiveros-1a5148a0/' rel='noopener noreferrer'>
                                                     <ListItemIcon>
                                                         <img src={LinkedIcon} alt="css-icon" className={classes.icon}/>
                                                     </ListItemIcon>
                                                 </Link>
                                             </ListItem>
                                         <ListItem button className={classes.listItem}>
-                                            <Link target='_blank' href='https://github.com/Darionti88'>
+                                            <Link target='_blank' href='https://github.com/Darionti88' rel='noopener noreferrer'>
                                                 <ListItemIcon>
                                                     <img src={GitIcon} alt="css-icon" className={classes.icon}/>
+                                                </ListItemIcon>
+                                            </Link>
+                                        </ListItem>
+                                        <ListItem button className={classes.listItem}>
+                                            <Link target='_blank' href='mailto:darionti@gmail.com' rel='noopener noreferrer'>
+                                                <ListItemIcon>
+                                                    <img src={MailIcon} alt="css-icon" className={classes.icon}/>
                                                 </ListItemIcon>
                                             </Link>
                                         </ListItem>
