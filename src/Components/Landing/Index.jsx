@@ -15,7 +15,7 @@ const useStyles = makeStyles(() => ({
         padding: '3rem 3rem 1.5rem 1.5rem',
         color:'#fff',
         minwidth:'100vw',
-        minHeight:'75vh',
+        minHeight:'100vh',
         overflow:'hidden',
         background: `url(${BackgroundImg})`,
         backgroundRepeat: 'no-repeat',
@@ -28,7 +28,7 @@ const useStyles = makeStyles(() => ({
         justifyContent:'center',
         color:'#fff',
         minWidth:'100vw',
-        minHeight:'45vh',
+        minHeight:'100vh',
         background: `url(${BackgroundImg})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover'
